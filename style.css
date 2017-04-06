@@ -24,14 +24,16 @@ html {
 
 	height: 16px;
 	width: 16px;
-	background-color: red;
-	display: inline-block;
-	
+	background-color: white;
 	margin: 0;
     padding: 0;
-    
-    
+    float: left;
 	
+    
+}
 
+.hover {
+
+	background-color: red;
 	
 }

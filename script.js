@@ -1,17 +1,23 @@
+
+
 $("document").ready(function(){
 
 	
 
     buildBox();
 	
-    $("div > .box").hover(function() {
+    
 
+	$( ".box" ).hover(function() {
+    	$( this ).addClass( "hover" );
+  	});
+  
 
-		$(this).fadeIn(500);
-	});
 	
 
 });
+
+
 
 
 
