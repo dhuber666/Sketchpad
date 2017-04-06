@@ -6,10 +6,10 @@
 
 .board {
 
-	height: 700px;
-	width: 700px;
+	height: 256px;
+	width: 256px;
 	
-	margin: 0 auto;
+	margin: 20px auto;
 	background-color: white;
 	padding: 0;
 
@@ -22,13 +22,16 @@ html {
 
 .box {
 
-	height: 43.5px;
-	width: 43.5px;
+	height: 16px;
+	width: 16px;
 	background-color: red;
 	display: inline-block;
 	
 	margin: 0;
-	float: left;
+    padding: 0;
+    
+    
+	
 
-	display: none;
+	
 }
