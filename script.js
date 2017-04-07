@@ -1,5 +1,5 @@
 
-$boardSize = $(".board").height();
+
 
 
 
@@ -13,7 +13,7 @@ $("document").ready(function(){
 	hoverFunc();
     $(".box").height(60);
 	$(".box").width(60);
-	
+	$boardSize = $(".board").height();
 	
 
 	
@@ -53,13 +53,17 @@ function changeSize() {
 	$size = prompt("Change the size!");
 	$divSize = $boardSize / $size;
 
-	$(".box").height($divSize);
-	$(".box").width($divSize);
+	
 
 	$loopCount = $size * $size;
 	removeBox();
+	
 	buildBox($loopCount);
+
+	console.log("Hi console");
 	hoverFunc();
+	$(".box").height($divSize);
+	$(".box").width($divSize);
 
 
 

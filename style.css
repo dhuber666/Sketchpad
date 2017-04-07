@@ -12,6 +12,7 @@
 	margin: 20px auto;
 	background-color: white;
 	padding: 0;
+	border: 2px solid black;
 
 }
 
@@ -38,10 +39,26 @@ html {
 	
 }
 
-#sizeBtn > button {
+.wrapper > button {
 
-	margin: 0 auto;
+	margin: 20px auto;
 	background-color: yellow;
 	display: block;
+	padding: 10px;
+	
+	
+	
 
 }
+
+.wrapper {
+
+	margin: 0 auto;
+	width: 400px;
+	
+	height: 100px;
+}
+
+
+
+
