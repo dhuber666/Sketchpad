@@ -6,8 +6,8 @@
 
 .board {
 
-	height: 256px;
-	width: 256px;
+	height: 960px;
+	width: 960px;
 	
 	margin: 20px auto;
 	background-color: white;
@@ -36,4 +36,12 @@ html {
 
 	background-color: red;
 	
+}
+
+#sizeBtn > button {
+
+	margin: 0 auto;
+	background-color: yellow;
+	display: block;
+
 }
